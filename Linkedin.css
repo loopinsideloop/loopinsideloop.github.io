@@ -1,0 +1,405 @@
+body { 
+      margin: 0;
+      padding: 0;
+}
+#top-bar { 
+     width: 100%;
+     height: 55px;
+     background-color: white;
+}
+#container0 {
+       width: 100%;
+       height: 10000px;
+       background-color: whitesmoke;
+}
+#container1 {
+      width: 74.5%;
+      height: 9000px;
+      background-color: whitesmoke;
+      margin: auto;
+}
+#logo {
+      width: 33px;
+      height: 30px;
+      background-color: black;
+      margin: 11px 212px 0px 3px;
+      float: right;
+      border-radius: 2px;
+      cursor: pointer;
+}
+#logo img {
+      width: 33px;
+      height: 33px;
+      border-radius: 2px;
+
+}
+#search {
+      width: 282px;
+      height: 33px;
+      background-color: whitesmoke;
+      margin: 11px 4px 0px 163px;
+      float: right;
+      border-radius: 3px;
+}
+#search1 {
+      width: 282px;
+      height: 33px;
+      background-color: whitesmoke;
+      border-radius: 3px;
+      border: none;
+      text-decoration: none;
+      text-align: right;
+}
+
+#home {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 2px 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#home1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 2px auto 0 auto;
+}
+#home2 {
+      width: 77px;
+      height: 16px;
+      background-color: white;
+      margin: 0 auto 0 auto;
+      font-size: smaller;
+      text-align: center;
+
+}
+#friends {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#friends1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 5px auto 0 auto;
+}
+#friends2 {
+      width: 77px;
+      height: 16px;
+      background-color: white;
+      margin: 0 auto 0 auto;
+      text-align: center;
+      font-size: smaller;
+}
+#jops {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#jops1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 5px auto 0 auto;
+}
+#jops2 {
+      width: 77px;
+      height: 16px;
+      background-color: white;
+      margin: 0 auto 0 auto;
+      font-size: smaller;
+      text-align: center;
+
+}
+#jops1 i { margin: auto 0 auto 4px;}
+#message {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#message1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 5px auto 0 auto;
+}
+#message2 {
+      width: 77px;
+      height: 16px;
+      background-color: white;
+      margin: 0 auto 0 auto;
+      font-size: smaller;
+      text-align: center;
+
+}
+#notification {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#notification1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 5px auto 0 auto;
+}
+#notification2 {
+      width: 77px;
+      height: 16px;
+      background-color: white;
+      margin: 0 auto 0 auto;
+      font-size: smaller;
+      text-align: center;
+
+}
+#profile {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#profile1 {
+      width: 35px;
+      height: 35px;
+      background-color: white;
+      margin: 3px auto 0 auto;
+      border-radius: 20px;
+}
+#profile2 {
+      width: 15px;
+      height: 14px;
+      background-color: white;
+      margin: 0px 25px 0 0px;
+      font-size: smaller;
+      text-align: center;
+      float: right;
+      display: inline;
+
+}
+nav { position: absolute;
+      width: 15px;
+      height: 14px;
+      background-color: white;
+      margin:  0px 0px 0 20px;
+      float: none;
+      text-align: center;
+}
+nav .button {
+      margin: 1px auto 0 auto;
+      background-color: white;
+      width:12px;
+      height:12px;
+      cursor: pointer;
+      position: absolute;
+}
+nav ul li a {
+      color: black;
+      text-decoration: none;
+      display: block;
+
+}
+nav ul {
+      position: absolute;
+      background-color: antiquewhite;
+      list-style: none;
+      left: 0;
+      width: 300px;
+      display: none;
+
+}
+nav ul li {
+      cursor: pointer;
+      padding: 8px ;
+      border-bottom: 1px solid greenyellow;
+      position: absolute;
+      
+       
+}
+
+input {
+      display: none;
+}
+[id="btn1"]:checked + ul{
+      display: block;
+}
+#work {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      border-right: 2px solid whitesmoke;
+      cursor: pointer;
+}
+#work1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 5px auto 0 auto;
+}
+#work2 {
+      width: 22px;
+      height: 16px;
+      background-color: white;
+      margin: 0 20px 0 0;
+      font-size: smaller;
+      text-align: center;
+      float: right;
+      display: inline;
+
+}
+#work3 {
+      width: 20px;
+      height: 14px;
+      background-color: white;
+      margin:  0px 0px 0 12px;
+      float: none;
+      text-align: center;
+}
+#work3 .button {
+      margin: 1px auto 0 auto;
+      background-color: white;
+      width:12px;
+      height:12px;
+      cursor: pointer;
+}
+#ads {
+      width: 80px;
+      height: 53px;
+      background-color: white;
+      margin: 0 1px 0 0;
+      float: right;
+      cursor: pointer;
+}
+#ads1 {
+      width: 32px;
+      height: 32px;
+      background-color: white;
+      margin: 5px auto 0 auto;
+}
+#ads2 {
+      width: 77px;
+      height: 16px;
+      background-color: white;
+      margin: 0 auto 0 auto;
+      font-size: smaller;
+      text-align: center;
+
+}
+#ads1 i {margin: auto 0 auto 4px;}
+
+#loop0{
+      width: 99.5%;
+      height: 43px;
+      background-color: whitesmoke;
+      margin: 1px auto 1px auto;
+}
+#loop0-1{
+      width: 80%;
+      height: 38px;
+      background-color: whitesmoke;
+      margin: auto;
+}
+#loop1{
+      float: left;
+      width: 28%;
+      height: 10000px;
+      background-color:whitesmoke;
+      margin: 1px 0px 0px 1px;
+}
+#loop1-1 {
+      width: 99%;
+      height: 440px;
+      margin: 1px auto 11px auto;
+      background-color: white;
+      border-radius: 20px;
+}
+#loop1-2 {
+      width: 99%;
+      height: 280px;
+      margin: 1px auto 11px auto;
+      background-color: white;
+      border-radius: 20px;
+}
+#loop1-3 {
+      width: 99%;
+      height: 280px;
+      margin: 1px auto 11px auto;
+      background-color: white;
+      border-radius: 20px;
+}
+#loop1-4 {
+      width: 99%;
+      height: 200px;
+      margin: 1px auto 11px auto;
+      background-color: white;
+      border-radius: 20px;
+}
+#loop2{
+      float: left;
+      width: 48%;
+      height: 10000px;
+      background-color: whitesmoke;
+      margin: 1px 0px 0px 24px;
+}
+#loop2-1 {
+      width: 99%;
+      height: 114px;
+      background-color: white;
+      margin: 0 auto 35px auto;
+      border-radius: 20px;
+      float: none;
+}
+#loop2-2 {
+      width: 99%;
+      height: 500px;
+      background-color: white;
+      margin: 0px auto 35px auto;
+      border-radius: 20px;
+      float: none;
+}
+#loop2-3 {
+      width: 99%;
+      height: 500px;
+      background-color: white;
+      margin: 0px auto 35px auto;
+      border-radius: 20px;
+      float: none;
+}
+#loop3{
+      float: left;
+      width: 19.5%;
+      height: 10000px;
+      background-color: whitesmoke;
+      margin: 1px 0px 0px 24px;
+}
+#loop3-1 {
+      width: 99%;
+      height: 400px;
+      background-color: white;
+      margin: 1px auto 11px auto;
+      border-radius: 20px;
+}
+#loop3-2 {
+      width: 99%;
+      height: 800px;
+      background-color: white;
+      margin: 1px auto 11px auto;
+      border-radius: 20px;
+}
